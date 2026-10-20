@@ -6,15 +6,19 @@ O painel abre sozinho quando a janela do terminal tem 144 colunas ou mais; em qu
 
 ## Instalar num computador novo
 
+O agents-panel se instala a partir do [WPC Mods for Claude](https://github.com/carreirodev/wpc-mods-claude/blob/main/README.pt-BR.md), o marketplace com todos os meus mods.
+
 1. Numa sessão do Claude Code, digite:
 
    ```
-   /plugin install agents-panel --marketplace carreirodev/mod-painel-agents
+   /plugin install agents-panel --marketplace carreirodev/wpc-mods-claude
    ```
 
 2. Responda `y` para adicionar o marketplace e escolha o escopo de usuário (o primeiro da lista) com Enter. A mensagem `Installed agents-panel` confirma; o painel funciona a partir daí, em toda sessão nova.
 
-Para receber uma versão nova depois: `/plugin marketplace update agents-panel` numa sessão.
+Para receber uma versão nova depois: `/plugin marketplace update wpc-mods-claude` numa sessão.
+
+Instalou antes pelo marketplace deste repositório (`agents-panel@agents-panel`)? Essa cópia continua atualizando como antes. Para trocar, siga [estes passos](https://github.com/carreirodev/wpc-mods-claude/blob/main/README.pt-BR.md#se-você-já-instalou-um-mod-pelo-repositório-dele); não fique com as duas, porque só uma roda.
 
 ## Editar o mod
 
